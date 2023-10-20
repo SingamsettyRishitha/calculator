@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+ }
+ body{
+    background-color: #ddf92a;
+    display: grid;
+    height: 100vh;
+    place-items: center;
+ }
+ .main{
+    width: 410px;
+    height: 370px;
+    background-color: black;
+    position: relative;
+    border: 5px solid black;
+    border-radius: 6px; 
+    
+ }
+ .main input[type='text'] {
+    width: 65%;
+    position: relative;
+    height: 60px;
+    right:40px;
+    top: 10px;
+    text-align: right;
+    padding: 3px 5px;
+    outline: none;
+    font-size: 40px;
+    border: 5px solid black;
+    display: flex;
+    margin: auto;
+    border-radius: 6px;
+    color: black;
+ }
+ .one input[type='button']{
+    width:90px;
+    padding: 2px;
+    margin: 2px 0px;
+    position: absolute;
+    right:10px;
+    top: 10px;
+    height: 70px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.5s;
+    background-color: #fd0606;
+    border-radius: 6px;
+    color: white;
+ }
+ .two input[type='button']{
+    width:90px;
+    padding: 2px;
+    margin: 2px 0px;
+    position: relative;
+    left: 23px;
+    top: 20px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.5s;
+    background-color: #7971d6;
+    border-radius: 6px;
+    color: white;
+ }
+ .two input[type='button']:hover{
+    background-color: rgb(233, 23, 86);
+    color: white;
+ }
